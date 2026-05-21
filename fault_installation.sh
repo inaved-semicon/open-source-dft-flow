@@ -1,8 +1,5 @@
 #!/bin/bash
 
-# Exit on any error + safer pipelines
-set -euo pipefail
-
 # FORCE HOME DIRECTORY
 cd "$HOME"
 
