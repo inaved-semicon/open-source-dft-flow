@@ -38,6 +38,8 @@ C --> D[Cut]
 D --> E[Netlist Without Sequential Element]
 C --> J[Chain]
 J --> K[Scan Inserted Netlist]
+J --> O [TestBench]
+O --> Q [Scan Chain Simulation]
 E --> F[ATPG]
 F --> G[Patterns.json]
 G --> H[ASM<br/>Binary Conversion]
@@ -47,7 +49,7 @@ K --> L[TAP]
 I --> L
 L --> M[Tap inserted Netlist]
 L --> P[Testbench]
-P --> N[Simulation]
+P --> N[TAP Controller & Vector Simulation]
 
 
 style B fill:#ff7f0e,color:#fff
