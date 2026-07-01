@@ -69,28 +69,6 @@ style L fill:#ff7f0e,color:#fff
 git clone https://github.com/keyurd1998-sys/open-source-dft-flow.git
 cd open-source-dft-flow
 ```
----
-
-## 📥 Local Environment Setup
-This project bypasses Docker to run natively on your OS for maximum performance. The setup script automates the installation of the Fault DFT tool, Yosys, and Icarus Verilog within a dedicated Python virtual environment.
-```bash
-# Provide execution permissions
-chmod +x fault_installation.sh
-
-# Execute the installation
-./fault_installation.sh
-```
----
-
-## 🕒 Installation Time
-Note on Duration: Because Yosys and Icarus are built from source to ensure compatibility with the latest PDKs, this process can take 60 to 90 minutes depending on your CPU.
-
----
-
-## ⚠️ System Requirements
-Uses all CPU cores (nproc)
-Close heavy apps during build
-Recommended: ≥ 4GB RAM
 
 ---
 
